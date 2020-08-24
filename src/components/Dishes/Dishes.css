@@ -1,0 +1,46 @@
+.dish {
+    width: 313px;
+}
+
+.dish-image {
+    display: block;
+    width: 313px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.dish-description {
+    margin-top: 0;
+    font-family: "Josefin Sans", sans;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.dish:focus {
+    outline: -webkit-focus-ring-color auto 1px;
+}
+
+.dish-img {
+    display: block;
+    width: 313px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.dish-img img {
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+}
+
+.dish-img img:hover {
+    -webkit-transform: scale(1.025);
+    -ms-transform: scale(1.025);
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
