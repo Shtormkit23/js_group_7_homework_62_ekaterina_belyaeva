@@ -1,0 +1,75 @@
+.nav-block {
+    width: 1120px;
+    background: #f8f8f8;
+    margin: 0 auto 43px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 43px 0;
+}
+
+.nav-items {
+    width: 1000px;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 87px;
+    margin-right: 90px;
+}
+
+.nav-links {
+    width: 560px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.nav-links li {
+    font-family: "Josefin Sans", sans;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.nav-search {
+    width: 192px;
+    margin-left: auto;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+
+.nav-search input {
+    display: block;
+    width: 100%;
+    font-family: "Josefin Sans", sans;
+    font-weight: 300;
+    padding: 7px 0 7px 10px;
+    font-size: 17px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-links:active{
+    color: #921026;
+}
