@@ -1,0 +1,87 @@
+.bananas {
+    background-color: #f8f8f8;
+    width: 1120px;
+    margin: 0 auto 43px;
+    padding-top: 50px;
+    padding-bottom: 55px;
+    padding-left: 93px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bananas-header {
+    font-size: 24px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #921026;
+}
+
+.bananas-description {
+    width: 360px;
+    font-family: "Josefin Sans", sans;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    margin-bottom: .6rem;
+}
+
+.bananas-button {
+    width: 105px;
+    border: 1.0px solid #c2c2c2;
+    font-family: "Josefin Sans", sans;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    padding: 7px 6px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.bg-img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 670px;
+}
+
+.dishes {
+    background-color: #ffffff;
+    width: 1120px;
+    margin: 0 auto 43px;
+    padding: 50px 40px 20px 53px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.dishes-wrapper {
+    width: 1023px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.bananas-button:active {
+    background: #921026;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
