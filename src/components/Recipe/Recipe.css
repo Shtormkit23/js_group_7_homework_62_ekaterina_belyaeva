@@ -1,0 +1,96 @@
+.recipe {
+    width: 1120px;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 0;
+    margin-bottom: 37px;
+    max-height: 438px;
+}
+
+.recipe-image {
+    -webkit-box-flex: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+}
+
+.recipe-img img {
+    width: 520px;
+    height: 438px;
+}
+
+.cinnamon-recipe {
+    padding-top: 20px;
+    padding-left: 42px;
+}
+
+.cinnamon-recipe-header {
+    width: 492px;
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #055555;
+    margin-bottom: 13px;
+    margin-top: 5px;
+}
+
+.cinnamon-recipe-bar {
+    width: 480px;
+    margin-bottom: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    color: #555555;
+    font-family: 'Open Sans', sans;
+    font-size: 18px;
+}
+
+.cinnamon-timing {
+    padding: 0;
+    margin: 0 0 0 10px;
+}
+
+.cinnamon-clock-icon {
+    width: 14px;
+    margin-right: 2px;
+}
+
+.recipe-difficulty {
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.cinnamon-recipe-description {
+    width: 480px;
+    font-size: 16px;
+    letter-spacing: 0.025em;
+    color: #000000;
+}
+
+.cinnamon-recipe-instruction {
+    padding: 0;
+    font-family: "Josefin Sans", sans;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.title-desc   {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.cinnamon-recipe-direction {
+    margin-top: 19px;
+    font-family: "Josefin Sans", sans;
+    font-weight: 300;
+}
