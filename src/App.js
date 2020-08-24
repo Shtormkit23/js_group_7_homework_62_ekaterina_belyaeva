@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Home from "./container/Home/Home";
+import Recipes from "./container/Recipes/Recipes";
+import Menu from "./container/Menu/Menu";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
+import PieRecipe from "./container/GetItRecipe/GetItRecipe";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <BrowserRouter>
+            <Switch>
+                <Route path="/" exact component={Home}/>
+                <Route path="/recipes" component={Recipes}/>
+                <Route path="/menu" component={Menu}/>
+                <Route path="/pierecipe" component={PieRecipe}/>
+            </Switch>
+        </BrowserRouter>
+    )
 }
 
 export default App;
