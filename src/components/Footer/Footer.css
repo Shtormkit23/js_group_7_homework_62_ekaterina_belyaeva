@@ -1,0 +1,42 @@
+footer {
+    width: 1120px;
+    opacity: 0.8;
+    background-color: #000000;
+    margin: auto;
+    padding: 30px 54px 30px 86px;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.footer-logo {
+    width: 87px;
+}
+
+.footer-links {
+    width: 65%;
+    font-size: 16px;
+    opacity: 0.5;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links li {
+    font-family: "Josefin Sans", sans;
+    color: #fefefe;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: inherit;
+}
