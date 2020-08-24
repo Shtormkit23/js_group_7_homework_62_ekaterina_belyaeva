@@ -1,0 +1,44 @@
+.dessert {
+    max-width: 453px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: 0 10px 20px 0 rgba(8,6,89,0.3);
+    margin-bottom: 20px;
+}
+
+.food-card {
+    padding: 30px 10px 30px 10px;
+    display: flex;
+    height: 160px;
+}
+
+.food-card-title {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.card-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-card-title {
+    margin: 15px 0 0 0;
+    font-family: "Josefin Sans",sans-serif;
+    color: #2f2d4e;
+    line-height: 1.2;
+    font-size: 25px;
+}
+
+.price-tag {
+    margin: 15px 0 0 0;
+    color: #921026;
+}
+
+.food-card img {
+    margin-right: 15px;
+    width: 99px;
+    height: 100px;
+}
